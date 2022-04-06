@@ -9,9 +9,8 @@ class Disk {
 
             this.positionX = e.offsetX;
             this.positionY = e.offsetY;
-            this.colorDisk = getRandomColor(0, 255);
-            this.lengthDisk = getRandomInteger(50, 200);
-            console.log(this.positionX, this.positionY)
+            this.colorDisk = getRandomColor();
+            this.lengthDisk = getRandomInteger(20, 100);
 
         });
     };
@@ -22,26 +21,8 @@ class Disk {
         context.fillStyle = this.colorDisk;
         context.arc(this.positionX, this.positionY, this.lengthDisk, 0, 2 * Math.PI);
         context.fill();
-        console.log(context);
     };
 
 };
 
 export default Disk;
-
-
-
-
-
-
-
-// set yop() {
-    
-    // }
-// setter, getter en rapport avec des propriétés du constructor
-// une méthode draw(argument à trouver)
-
-// crétaion du constructor, définitiopn des propriété avec valeur par défaut
-// color
-// taille(radius)
-// position de base x et y
