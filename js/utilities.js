@@ -4,10 +4,10 @@ function getRandomInteger(min, max) {
 
 
 function getRandomColor() {
-    let r = getRandomInteger(0, 255)
-    let g = getRandomInteger(0, 255)
-    let b = getRandomInteger(0, 255)
-    let a = Math.random();
+    const r = getRandomInteger(0, 255)
+    const g = getRandomInteger(0, 255)
+    const b = getRandomInteger(0, 255)
+    const a = Math.random();
     return `rgba(${r}, ${g}, ${b}, ${a})`;
 };
 
