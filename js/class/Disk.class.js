@@ -7,8 +7,8 @@ class Disk {
         
         masterpiece.addEventListener('click', (e) => {
 
-            this.positionX = e.clientX - 340;
-            this.positionY = e.clientY - 340;
+            this.positionX = e.offsetX;
+            this.positionY = e.offsetY;
             this.colorDisk = getRandomColor(0, 255);
             this.lengthDisk = getRandomInteger(50, 200);
             console.log(this.positionX, this.positionY)
