@@ -5,8 +5,8 @@ import { getRandomInteger } from "../utilities.js";
 class Disk {
     constructor(positionX, positionY) {
         
-        this.positionX = positionX
-        this.positionY = positionY
+        this.positionX = positionX;
+        this.positionY = positionY;
         this.colorDisk = getRandomColor();
         this.lengthDisk = getRandomInteger(20, 100);
         
