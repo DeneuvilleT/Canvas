@@ -2,7 +2,7 @@ import { getRandomColor } from "../utilities.js";
 import { getRandomInteger } from "../utilities.js";
 
 
-class Disk {
+export default class Disk {
     constructor(positionX, positionY) {
         
         this.positionX = positionX;
@@ -21,4 +21,4 @@ class Disk {
     };
 };
 
-export default Disk;
+;

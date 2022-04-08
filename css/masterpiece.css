@@ -2,13 +2,20 @@
     box-sizing: content-box;
 }
 
+h1{
+    font-weight: bolder;
+    color: white;
+    font-size: 4em;
+    margin: 50px;
+}
+
 html {
     height: 100%;
     width: 100%;
 }
 
 body {
-    /* structure */
+
     margin: 0 auto;
     height: 100%;
     width: 100%;
@@ -17,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    /* presentation */
+
     background-color: #8A0808;
     font-family: 'Open Sans', sans-serif;
 }
@@ -25,4 +32,5 @@ body {
 canvas {
     background-color: white;
     border: 20px ridge gold;
+    margin: 20px;
 }
